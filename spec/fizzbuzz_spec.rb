@@ -13,6 +13,10 @@ describe 'FizzBuzz' do
     it '5' do
       expect(is_divisible_by_five?(5)).to eq(true)
     end
+
+    it '15' do
+      expect(is_divisible_by_fifteen?(15)).to eq(true)
+    end
   end
 
   context 'knows that a number is not divisible by' do
@@ -21,6 +25,10 @@ describe 'FizzBuzz' do
     end
     it '5' do
       expect(is_divisible_by_five?(1)).not_to eq(true)
+    end
+
+    it '15' do
+      expect(is_divisible_by_fifteen?(1)).not_to eq(true)
     end
   end
 end
