@@ -1,5 +1,10 @@
 # frozen_string_literal: true
 
+
+def fizzbuzz(number)
+  number
+end
+
 def is_divisible_by_three?(number)
   is_divisible_by?(number, 3)
 end
