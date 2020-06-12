@@ -13,7 +13,7 @@ describe 'FizzBuzz' do
 
   context 'knows that a number is not divisible by' do
     it '3' do
-      expect(is_divisible_by_three?(3)).not_to eq(true)
+      expect(is_divisible_by_three?(1)).not_to eq(true)
     end
   end
 end
