@@ -36,5 +36,9 @@ describe 'FizzBuzz' do
     it 'the number' do
       expect(fizzbuzz(1)).to eq 1
     end
+
+    it 'Fizz' do
+      expect(fizzbuzz(3)).to eq 'Fizz'
+    end
   end
 end
