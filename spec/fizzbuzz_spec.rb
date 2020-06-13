@@ -1,5 +1,4 @@
 # frozen_string_literal: true
-
 require 'fizzbuzz'
 
 # Write a program that prints the numbers from 1 to 100.
